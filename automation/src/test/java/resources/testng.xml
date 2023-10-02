@@ -1,0 +1,10 @@
+<suite name="New User" verbose = "1">
+    <test name="Register User">
+        <classes>
+            <parameter name="username" value="sk10_autouser2"></parameter>
+            <parameter name="email" value="sk10_autouser2@abv.bg"></parameter>
+            <parameter name="password" value="password"></parameter>
+            <class name="lecture14.exercises.RegisterTest"></class>
+        </classes>
+    </test>
+</suite>
