@@ -50,7 +50,7 @@ public class LoginTest {
 
     @DataProvider(name = "getUserData")
     public Object[][] getUsers() {
-        return new Object[][] {
+        return new Object[][]{
                 {"auto_user", "auto_pass"}
         };
     }
